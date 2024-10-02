@@ -62,7 +62,11 @@ header h1 {
   }
   
   img {
-    max-width: 30%;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    object-fit: contain;
+    border: 2px solid gray;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
@@ -80,6 +84,7 @@ header h1 {
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 2px;
   }
   
   footer {
@@ -87,8 +92,9 @@ header h1 {
     color: white;
     text-align: center;
     padding: 1rem;
-    position: absolute;
+    width: 100%;
     bottom: 0;
+    position: fixed;
    
   }
   
